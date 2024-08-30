@@ -61,7 +61,7 @@ const members = [
     name: "Muhammad Athallah Rasya",
     dob: "05 Desember 2008",
     instagram: "athallah_rasya12",
-    categories: ["security", "documentation"]
+    categories: ["security"]
   },
   {
     name: "Calysta Setiawan",
@@ -147,19 +147,18 @@ const updateContent = (category) => {
   memberCards.innerHTML = filteredMembers.map(createMemberCard).join("");
 
   const categoryImages = {
-    "chairperson": "assets/Ketua.jpg",
-    "secretary": "",  // ----------------------------
-    "treasurer": "assets/Bendahara.jpg",
-    "event": "assets/event.png",  
-    "communication": "", // ---------
-    "multimedia": "assets/Mulmed.jpg",
-    "design": "assets/sekbid_what.png",
-    "documentation": "assets/rasya.jpg", 
-    "art-appreciation": "assets/Sekbid Talent.jpg",
-    "languages": "assets/Bahasa.jpg",
+    "chairperson": "chairperson.jpg",
+    "secretary": "secretary.jpg",
+    "event": "event.jpeg",
+    "communication": "communication.jpg",
+    "multimedia": "multimedia.jpg",
+    "design": "design.jpg",
+    "documentation": "documentation.jpg",
+    "art-appreciation": "art-appreciation.jpg",
+    "languages": "languages.jpg",
     // "lineup-cleanliness": "lineup-cleanliness.jpg",
     // "shoe-guards": "shoe-guards.jpg",
-    // "security": "assets/rasya.jpg",
+    // "security": "security.jpg",
     "all": "all.jpeg"
   };
 
