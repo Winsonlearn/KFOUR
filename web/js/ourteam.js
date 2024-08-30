@@ -147,18 +147,19 @@ const updateContent = (category) => {
   memberCards.innerHTML = filteredMembers.map(createMemberCard).join("");
 
   const categoryImages = {
-    "chairperson": "chairperson.jpg",
-    "secretary": "secretary.jpg",
-    "event": "event.jpeg",
-    "communication": "communication.jpg",
-    "multimedia": "multimedia.jpg",
-    "design": "design.jpg",
-    "documentation": "documentation.jpg",
-    "art-appreciation": "art-appreciation.jpg",
-    "languages": "languages.jpg",
+    "chairperson": "assets/Ketua.jpg",
+    "secretary": "",  // ----------------------------
+    "treasurer": "assets/Bendahara.jpg",
+    "event": "assets/event.png",  
+    "communication": "", // ---------
+    "multimedia": "assets/Mulmed.jpg",
+    "design": "assets/sekbid_what.png",
+    "documentation": "assets/rasya.jpg", 
+    "art-appreciation": "assets/Sekbid Talent.jpg",
+    "languages": "assets/Bahasa.jpg",
     // "lineup-cleanliness": "lineup-cleanliness.jpg",
     // "shoe-guards": "shoe-guards.jpg",
-    // "security": "security.jpg",
+    // "security": "assets/rasya.jpg",
     "all": "all.jpeg"
   };
 
