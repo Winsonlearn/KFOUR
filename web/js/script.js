@@ -15,6 +15,7 @@ function navigateTo(sectionId) {
         history.pushState(null, null, `#${sectionId}`);
     }, 1500); 
 }
+
 function handleRouting() {
     let hash = location.hash.slice(1) || 'home';
     navigateTo(hash);
@@ -73,14 +74,12 @@ document.addEventListener('DOMContentLoaded', () => {
       navList.classList.toggle('active');
   });
 
-  // Menutup menu saat item menu diklik
   navList.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
           navList.classList.remove('active');
       });
   });
 
-  // Menutup menu saat diklik di luar menu
   document.addEventListener('click', (event) => {
       const isClickInsideNav = navList.contains(event.target);
       const isClickOnMenuToggle = menuToggle.contains(event.target);
@@ -113,6 +112,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
   });
 });
-
 
 

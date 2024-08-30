@@ -38,6 +38,7 @@
   .search-bar {
       display: flex;
       align-items: center;
+      border-radius: 25px 25px 25px 25px;
   }
   
   .search-bar input {

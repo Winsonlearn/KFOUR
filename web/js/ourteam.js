@@ -7,7 +7,7 @@ const members = [
     name: "Kellen Nataline",
     dob: "07 des 2008",
     instagram: "klln.ntlne",
-    categories: ["chairperson"] //
+    categories: ["chairperson"] 
   },
   {
     name: "Lavenia Sherlifany",
@@ -149,21 +149,24 @@ const updateContent = (category) => {
   const categoryImages = {
     "chairperson": "chairperson.jpg",
     "secretary": "secretary.jpg",
-    "event": "./assets/1.jpeg",
+    "event": "event.jpeg",
     "communication": "communication.jpg",
     "multimedia": "multimedia.jpg",
     "design": "design.jpg",
     "documentation": "documentation.jpg",
     "art-appreciation": "art-appreciation.jpg",
     "languages": "languages.jpg",
-    "lineup-cleanliness": "lineup-cleanliness.jpg",
-    "shoe-guards": "shoe-guards.jpg",
-    "security": "security.jpg",
-    "all": "./assets/1.jpeg"
+    // "lineup-cleanliness": "lineup-cleanliness.jpg",
+    // "shoe-guards": "shoe-guards.jpg",
+    // "security": "security.jpg",
+    "all": "all.jpeg"
   };
 
-  // categoryPhoto.src = categoryImages[category];
-  categoryPhoto.src = "./assets/1.jpeg";
+  categoryPhoto.alt = categoryImages[category];
+  categoryPhoto.src = categoryImages[category];
+  // categoryPhoto.src = ;
+  
+
 };
 
 updateContent("all");

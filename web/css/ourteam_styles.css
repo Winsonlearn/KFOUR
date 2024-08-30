@@ -14,7 +14,7 @@
 
 .category-photo {
   width: 100%;
-  padding-top: 56.25%; /* Untuk rasio aspek 16:9 */
+  padding-top: 56.25%; 
   position: relative;
   overflow: hidden;
   border-radius: 10px;
@@ -62,7 +62,6 @@
   border-radius: 10px;
   padding: 1.5rem;
   text-align: center;
-  box-shadow: 0 4px 8px var(--card-shadow);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 6px 12px var(--card-shadow);
 
@@ -104,13 +103,13 @@
 
 @media (min-width: 1025px) {
   .category-photo {
-    margin-top: 3rem;
+    margin-top: 0.2rem;
   }
 }
 
 @media (max-width: 1024px) {
   .category-photo {
-    margin-top: 2.5rem;
+    margin-top: 2rem;
   }
 
   .member-cards {
@@ -120,7 +119,7 @@
 
 @media (max-width: 768px) {
   .category-photo {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
   .filter-dropdown {
@@ -147,4 +146,37 @@
     margin: 0 auto;
     width: 100%; 
   }
+}
+
+
+
+
+
+
+
+
+
+.filter-dropdown:focus,
+.instagram-link:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+.member-card {
+  will-change: transform, box-shadow;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.member-card {
+  animation: fadeInUp 0.5s ease-out;
 }
