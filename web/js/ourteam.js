@@ -61,7 +61,7 @@ const members = [
     name: "Muhammad Athallah Rasya",
     dob: "05 Desember 2008",
     instagram: "athallah_rasya12",
-    categories: ["security"]
+    categories: ["security", "documentation"]
   },
   {
     name: "Calysta Setiawan",
