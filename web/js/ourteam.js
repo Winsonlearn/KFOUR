@@ -151,7 +151,7 @@ const updateContent = (category) => {
     "secretary": "",  // ----------------------------
     "treasurer": "assets/Bendahara.jpg",
     "event": "assets/event.png",  
-    "communication": "", // ---------
+    "communication": "komunikasi.jpeg", // ---------
     "multimedia": "assets/Mulmed.jpg",
     "design": "assets/sekbid_what.png",
     "documentation": "assets/rasya.jpg", 
@@ -160,7 +160,7 @@ const updateContent = (category) => {
     // "lineup-cleanliness": "lineup-cleanliness.jpg",
     // "shoe-guards": "shoe-guards.jpg",
     // "security": "assets/rasya.jpg",
-    "all": "all.jpeg"
+    "all": "assets/magang5.jpeg"
   };
 
   categoryPhoto.alt = categoryImages[category];
