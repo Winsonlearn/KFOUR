@@ -151,7 +151,7 @@ const updateContent = (category) => {
     "secretary": "",  // ----------------------------
     "treasurer": "assets/Bendahara.jpg",
     "event": "assets/event.png",  
-    "communication": "komunikasi.jpeg", // ---------
+    "communication": "assets/komunikasi.jpeg", // ---------
     "multimedia": "assets/Mulmed.jpg",
     "design": "assets/sekbid_what.png",
     "documentation": "assets/rasya.jpg", 
